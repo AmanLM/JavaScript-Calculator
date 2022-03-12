@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    color: #DFDEDC;
+    background-color: #fafafa;
+}
+
+
+
+.container{
+    width: 322px;
+    border: 0.5px #DFDEDC solid;
+    border-radius: 1px;
+}
+.input{
+    width: 320px;
+    height: 120px;
+    border: 0.5px #5E5D5B solid;
+    color: whitesmoke;
+    background-color: #5d5c5a;
+    font-size: 42px;
+    text-align: right;
+
+}
+.screen1{
+    width: 320px;
+    height: 120px;
+    border: 0.5px #5E5D5B solid;
+    background-color: #5d5c5a;
+}
+
+.container .row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container .row button{
+    height: 80px;
+    width: 80px;
+    border: 0.5px #5E5D5B solid;
+    text-align: center;
+    padding-top: 22px;
+    font-size: 28px;
+}
+
+/* Colors */
+.button2{
+    background-color: #6c6b69;
+}
+.button3, .button4, .button5{
+    background-color: #848482;
+}
+
+.button6{
+    background-color: #818381;
+}
+.division, .multiply, .minus, .add, .equal{
+    background-color: #f1a23d;
+}
+
+
